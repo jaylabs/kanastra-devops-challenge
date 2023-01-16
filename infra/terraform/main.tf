@@ -90,7 +90,7 @@ module "gke" {
   node_pools = [
     {
       name               = "spot-node-pool"
-      machine_type       = "e2-medium"
+      machine_type       = "e20-medium"
       min_count          = 1
       max_count          = 2
       local_ssd_count    = 0
